@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Helvetica, Arial;
+}
+h2{
+  text-align: center;
+  padding-top: 13px;
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: lighter;
+  font-size: 24pt;
+  color: black;
+
+}
+h1{
+  text-align: center;
+  padding-top: 13px;
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: lighter;
+  font-size: 36pt;
+  color: black;
+
+}
+#pic{
+  width: 80px;
+}
+#artisan{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+#mainNav .logo img {
+  height: 84px;
+  transition: 0.4s;
+  padding-left: 60px;
+}
+.bg-black{
+  background: #eee; !important;
+}
+.txt-white {
+  color: white; !important;
+}
+
+.number1{
+  width: 100%;
+  border: 3px solid #b35900;
+  overflow: hidden;
+}
+.number1 img{
+  display: inline-block;
+  margin-left: 155px;
+  /* margin-left: 15px; */
+  float: left;
+  width:400px;
+}
+.right{
+  width: 40%;
+  margin-left: 50%;
+  margin-top: 40px;
+
+
+  /* margin-bottom: 50%; */
+  text-align: center;
+  /* display: inline-block; */
+}
+.right h1{
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 34pt;
+}
+.right p{
+  font-family: cursive;
+  font-size: 24pt;
+}
+
+#mainNav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 16px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background: #b35900;
+  transition: background 0.4s;
+}
+#mainNav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+  color: black;
+
+}
+#main ul li {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: color 0.4s;
+}
