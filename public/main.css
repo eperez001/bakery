@@ -24,6 +24,13 @@ h1{
   color: black;
 
 }
+p{
+  text-align: center;
+  padding-top: 13px;
+  font-size: 24;
+  color: black;
+
+}
 #pic{
   width: 80px;
 }
@@ -80,6 +87,7 @@ h1{
   font-family: cursive;
   font-size: 24pt;
 }
+
 
 #mainNav{
   display: flex;

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <%= erb :"partials/header" %>
+    <br>
+    <br><br>
+    <br>
+    <div>
+      <img id="artisan"src="cake.jpg" alt="">
+      <h1>Cakes!!</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="number1">
+    <h1> Name: <%= @chocolatecake.name %></h1>
+<br>
+    <h1>Price: <%= @chocolatecake.price %></h1>
+<br>
+<h2>Description: <%= @chocolatecake.description %></h2>
+    <img src="<%= @chocolatecake.img %>">
+    </div>
+    <div class="number1">
+    <h1> Name: <%= @capuccino.name %></h1>
+    <br>
+    <h1>Price: <%= @capuccino.price %></h1>
+    <br>
+    <h2>Description: <%= @capuccino.description %></h2>
+    <br>
+    <img src="<%= @capuccino.img %>">
+
+    </div>
+    <div class="number1">
+    <h1> Name: <%= @seasonal.name %></h1>
+    <br>
+    <h1>Price: <%= @seasonal.price %></h1>
+    <br>
+    <h2>Descrption: <%= @seasonal.description %></h2>
+    <br>
+    <img src="<%= @seasonal.img %>">
+    </div>
+      <script src="main.js">
+
+      </script>
+  </body>
+</html>
