@@ -24,7 +24,12 @@
     <h1>Price: <%= @chocolatecake.price %></h1>
 <br>
 <h2>Description: <%= @chocolatecake.description %></h2>
-    <img src="<%= @chocolatecake.img %>">
+<img src="<%= @chocolatecake.img %>">
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id= "img01">
+    <div id="caption"></div>
+    </div>
     </div>
     <div class="number1">
     <h1> Name: <%= @capuccino.name %></h1>
